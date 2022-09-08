@@ -1,14 +1,12 @@
 body {
   position: relative;
   margin: 0;
-  max-width: 1908px;
-  width: 100vw;
-  height: 100vh;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  background-image: url("./Binary\ Code\ Wallpaper.jpg" );
+  background-image: url("./Фон-1.jpg" );
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   background-size:cover;
 }
 main{
@@ -32,8 +30,8 @@ main{
   margin-right: 20px;
   padding-bottom: 12px;
   padding-top: 10px;
-  color: rgb(0, 0, 0);
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -49,7 +47,7 @@ main{
 .page-header a:focus,
 .page-header a:hover {
   /* filter: hue-rotate(240deg); */
-  color:#e31212;
+  color:#1986df;
 }
 
 .page-header a:active {
@@ -93,21 +91,22 @@ main{
   /* width: 928px; */
   margin-right: 10px;
   margin-bottom: 10px;
-  font-size: 6rem;
-  line-height: 120px;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #0d395c;
+  background-color: rgba(13,57,92,0.7); 
+  border-radius: 20px;
+  font-size: 4.2rem;
+  line-height: 80px;
   letter-spacing: -2px;
   font-weight: 400;
-  color: rgb(0, 0, 0);
-  text-shadow: 1px 1px 1px rgb(211, 196, 196);
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #0d395c;
   /* border:3px solid #8da2ed; */
-  border-radius: 20%;
   font-style: italic;
+}
 
-  /* color: transparent;    
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: linear-gradient(135deg, red, blue); */
-  
+.heading:hover{
+  color: #1986df;
 }
 .heading:hover {
   animation: animate_grow 2s infinite;
@@ -126,9 +125,9 @@ main{
  
 
 .hero-image span{
-  color:  #e31212;
+  color:  #ffffff;
   /* text-shadow: 1px 1px 1px rgb(255, 255, 255); */
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(13,57,92,0.7); 
   border-radius: 20px;
   font-weight: 500;
   font-size: 1.6rem;
@@ -138,9 +137,9 @@ main{
 }
 .hero-image .description{
   font-size: 1.6rem;
-  text-shadow: 1px 1px 1px rgb(255, 254, 254);
-  color:  rgb(1, 1, 1);  
-  /* background-color: rgba(255, 255, 255, 0.7);  */
+  text-shadow: 1px 1px 1px #0d395c;
+  color: #ffffff;  
+  background-color: rgba(13,57,92,0.7); 
   border-radius: 30px;
 }
 .hero-image .list {
@@ -184,7 +183,8 @@ main{
   width: 384px;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
-  border-radius: 35%;
+  background-color: rgba(13,57,92,0.7); 
+  border-radius: 20px;
   font-size: 3rem;
   line-height: 3rem;
   font-style: italic;
@@ -197,8 +197,8 @@ main{
  .download{
   text-decoration: none;
   font-size: 1.6rem;
-  color: #e31212;
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   /* background-color: rgba(45, 45, 47, 0.7); */
   font-weight: 500;
   border-radius: 10px;
@@ -211,7 +211,7 @@ main{
   content: "\2937";
 }
 .download:hover{
-  color: #1f2aa1;
+  color: #1986df;
 }
 
 .intro {
@@ -547,19 +547,18 @@ main{
   margin-right: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
-  color: rgb(0, 0, 0);
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
-  opacity: 0.8;
   font-size: 2rem;
 }
 
 .page-footer a:focus,
 .page-footer a:hover {
   /* filter: hue-rotate(240deg); */
-  color:#e31212;
+  color:#1986df;
 }
 
 .page-footer a:active {
