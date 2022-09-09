@@ -9,6 +9,7 @@ body {
   background-position: 50% 50%;
   background-size:cover;
 }
+/* @viewport { width: device-width;} */
 main{
   flex: 1 1 auto;
 }
@@ -79,6 +80,11 @@ main{
   border: 5px solid #d9dadc;
   border-radius: 10%;
 }
+/* @media (max-width: 520px) {
+  .photo{
+    margin-top: 50px;
+  }
+ }  */
 .hero-image .container {
   padding-left: 0;
   padding-right: 0;
@@ -91,15 +97,14 @@ main{
   /* width: 928px; */
   margin-right: 10px;
   margin-bottom: 10px;
-  color: #ffffff;
   text-shadow: 1px 1px 1px #0d395c;
   background-color: rgba(13,57,92,0.7); 
   border-radius: 20px;
-  font-size: 4.2rem;
+  font-size: 3.5rem;
   line-height: 80px;
   letter-spacing: -2px;
   font-weight: 400;
-  color: #ffffff;
+  color: #1986df;
   text-shadow: 1px 1px 1px #0d395c;
   /* border:3px solid #8da2ed; */
   font-style: italic;
@@ -125,12 +130,12 @@ main{
  
 
 .hero-image span{
-  color:  #ffffff;
+  color:  #cdc0c0;
   /* text-shadow: 1px 1px 1px rgb(255, 255, 255); */
   background-color: rgba(13,57,92,0.7); 
   border-radius: 20px;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 .hero-image .span2{
   color: #e40c0c;
@@ -197,11 +202,11 @@ main{
  .download{
   text-decoration: none;
   font-size: 1.6rem;
-  color: #ffffff;
+  color: #1986df;
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  /* background-color: rgba(45, 45, 47, 0.7); */
+  background-color: rgba(13,57,92,0.7);
   font-weight: 500;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .download:before{
